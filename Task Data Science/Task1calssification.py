@@ -113,7 +113,7 @@ results[name] = {
             "Classification Report": classification_report(y_test, y_pred)
         }
 
-# 📌  Draw ROC Curve
+#   Draw ROC Curve
 fpr, tpr, _ = roc_curve(y_test, y_pred)
 plt.plot(fpr, tpr, label=f"{name} (AUC = {auc(fpr, tpr):.2f}")
 plt.plot([0, 1], [0, 1], linestyle="--", color="gray")
