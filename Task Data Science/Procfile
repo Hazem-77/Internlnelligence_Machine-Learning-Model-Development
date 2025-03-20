@@ -1,1 +1,2 @@
-web: uvicorn Task1calssification:app --host 0.0.0.0 --port 8000
+web: uvicorn Task1classification:app --host 0.0.0.0 --port 8000
+
